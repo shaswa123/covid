@@ -1,0 +1,23 @@
+{
+	"name": "covid",
+	"version": "1.0.0",
+	"description": "Website that will notify you if a new case has been registered near you.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Shaswat Patel",
+	"license": "MIT",
+	"dependencies": {
+		"ejs": "^3.0.1",
+		"express": "^4.17.1",
+		"path": "^0.12.7",
+		"unirest": "^0.6.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	},
+	"engines": {
+		"node": "13.3.0"
+	}
+}

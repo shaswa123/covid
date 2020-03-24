@@ -1,0 +1,14 @@
+.card {
+	border: none !important;
+}
+
+@media (max-width: 992px) {
+	.cards {
+		flex-direction: column;
+	}
+	.cards .card {
+		width: 50%;
+		margin: auto;
+		margin-bottom: 1em;
+	}
+}
